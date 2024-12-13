@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-11T17:41:22 IST" name="Default suite" finished-at="2024-12-11T17:42:56 IST" duration-ms="94156">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrganization2Test.createOrganizationWithPhoneNumber()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" name="createOrganizationWithPhoneNumber" class="com.comcast.crm.orgtest.CreateOrganization2Test"/>
+        <method signature="CreateOrganization2Test.createOrgwithIndustryAndTypeTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" name="createOrgwithIndustryAndTypeTest" class="com.comcast.crm.orgtest.CreateOrganization2Test"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrganization2Test.createOrgTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" name="createOrgTest" class="com.comcast.crm.orgtest.CreateOrganization2Test"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-12-11T17:41:22 IST" name="Default test" finished-at="2024-12-11T17:42:56 IST" duration-ms="94156">
+      <class name="com.comcast.crm.orgtest.CreateOrganization2Test">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:41:22 IST" name="configBS" finished-at="2024-12-11T17:41:22 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:41:22 IST" name="beforeClass" finished-at="2024-12-11T17:41:27 IST" duration-ms="4233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:41:27 IST" name="beforeMethod" finished-at="2024-12-11T17:41:32 IST" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:41:32 IST" name="createOrgTest" finished-at="2024-12-11T17:41:59 IST" duration-ms="27488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:41:59 IST" name="afterMethod" finished-at="2024-12-11T17:42:06 IST" duration-ms="6605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:06 IST" name="beforeMethod" finished-at="2024-12-11T17:42:09 IST" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrganizationWithPhoneNumber()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:09 IST" name="createOrganizationWithPhoneNumber" finished-at="2024-12-11T17:42:22 IST" duration-ms="13180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithPhoneNumber -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:22 IST" name="afterMethod" finished-at="2024-12-11T17:42:26 IST" duration-ms="4017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:26 IST" name="beforeMethod" finished-at="2024-12-11T17:42:29 IST" duration-ms="3391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createOrgwithIndustryAndTypeTest()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:29 IST" name="createOrgwithIndustryAndTypeTest" finished-at="2024-12-11T17:42:52 IST" duration-ms="22111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgwithIndustryAndTypeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:52 IST" name="afterMethod" finished-at="2024-12-11T17:42:56 IST" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:56 IST" name="afterClass" finished-at="2024-12-11T17:42:56 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.orgtest.CreateOrganization2Test@49ec71f8]" started-at="2024-12-11T17:42:57 IST" name="configAS" finished-at="2024-12-11T17:42:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrganization2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

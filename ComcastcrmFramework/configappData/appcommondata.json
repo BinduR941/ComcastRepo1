@@ -1,0 +1,21 @@
+{
+"browser" : "chrome",
+"url" : "http://localhost:8888",
+ "username" : "admin",
+"password" : "admin",
+"timeout" : 20
+}
+
+insert into student values("id" varchar(10),name varchar(20),class varchar(10),age int(5));
+
+ create table tp01(
+    -> id varchar(20),name varchar(20),sal double(20),place varchar(20));
+> insert into tp02 values('1','john','20000','bangalore');
+
+insert into tp02 values('3','jones','60000','goa');
+
+//span[@class="a-size-medium a-color-base a-text-normal"]
+
+
+//span[@class='a-size-medium a-color-base a-text-normal']/../../../../div[3]/div[1]/div/div[1]/div[1]/div[1]/a/span/span[2]/span[2]
+
